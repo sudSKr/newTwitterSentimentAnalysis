@@ -7,10 +7,10 @@ from tweepy.streaming import StreamListener
 import json
 import nlpTwitterSentimentAnalysisModule as TSAM
 # below we are supposed to store our keys and tokens we can get after creating out twiiter application at twiiter.com
-ckey="vgH26hk5lwk6tdDIUCnao6Ip0"
-csecret="hlFuq9mYYZ0rQl64Bmim9OrxPTFYLAPB3NcanxWyNLrxGWE23d"
-atoken="1006554193602043904-b3sSXiazS73kEk19hD1HJ2LiJ2taoO"
-asecret="hNLboOzXnWVwedHrT1SDzE9zdZ3N7rIihEs3PAJGVXPAh"
+ckey=""
+csecret=""
+atoken=""
+asecret=""
 #this class will get us our data from twitter
 class listener(StreamListener):
     def on_data(self, data):
